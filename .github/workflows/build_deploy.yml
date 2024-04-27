@@ -3,7 +3,7 @@ name: deploy teaching
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
