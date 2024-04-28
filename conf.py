@@ -22,7 +22,7 @@ extensions = [
     ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'de/*']
+exclude_patterns = ['README.md', '_build', 'Thumbs.db', '.DS_Store', 'de/*']
 
 language = 'ls'
 

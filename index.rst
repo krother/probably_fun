@@ -11,11 +11,20 @@ Probably Fun
    :maxdepth: 3
    :titlesonly:
 
-   preface
+   articles/data_portrait.rst
+   articles/centrality_and_spread.rst
+   articles/probability_tree.rst
+   articles/expectation_values.rst
+   articles/correlation.rst
+   articles/distributions.rst
+   articles/entropy.rst
+   articles/linear_regression.rst
+   articles/hypothesis_testing.rst
+   articles/data_modeling.rst
 
 .. topic:: Acknowledgements
 
-   Christina
+   Christina Paula Hilal
 
 
 .. topic:: License
