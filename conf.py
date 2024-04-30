@@ -36,18 +36,18 @@ html_favicon = "_static/favicon.ico"
 
 html_sidebars = {
     '**': [
-        'about.html',
-        'localtoc.html',
+        #'about.html',
+        #'localtoc.html',
         #'navigation.html',
-        'searchbox.html',
+        #'searchbox.html',
     ]
 }
 html_theme_options = {
     'logo': 'academis.png',
     'github_user': 'krother',
     'github_repo': 'probably_fun',
-    'show_relbar_top' : True,
-    'show_relbar_bottom' : True,
+    'show_relbar_top' : False,
+    'show_relbar_bottom' : False,
 }
 
 # ---- Options for PDF output ----

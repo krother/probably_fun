@@ -11,9 +11,11 @@ Probably Fun
    :maxdepth: 3
    :titlesonly:
 
+   articles/intro.rst
    articles/data_portrait.rst
    articles/centrality_and_spread.rst
    articles/probability_tree.rst
+   articles/memory_simulator.rst
    articles/expectation_values.rst
    articles/correlation.rst
    articles/distributions.rst
@@ -21,6 +23,7 @@ Probably Fun
    articles/linear_regression.rst
    articles/hypothesis_testing.rst
    articles/data_modeling.rst
+   articles/links.rst
 
 .. topic:: Acknowledgements
 

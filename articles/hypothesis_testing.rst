@@ -11,6 +11,29 @@ Time Frame:
 
 90’
 
+Motivation
+----------
+
+|image6|
+
+Ein didaktisches “Kochrezept” der besonderen Art: Ich habe Würfel (W6)
+in den Backofen geschoben und bei 120-140 Grad für 10-20 Minuten
+gebacken. Bei zu hoher Temperatur verwandelt sich der Würfel in ein
+amorphes etwas, bei zu niedriger passiert nichts. Trifft man die
+Bedingungen aber gut, verformt sich der Würfel so geringfügit, dass er
+bestimmte Zahlen häufiger würfelt.
+
+Ein solcherart gezinkter Würfel eignet sich fantastisch dazu die Frage
+zu diskutieren: “Können wir beweisen, dass ein Würfel gezinkt ist?”. Die
+Behandlung der Frage eröffnet auch eine tiefere Betrachtungsweise:
+“Woher wissen wir überhaupt etwas?”.
+
+Begriffe: **Hypothesentests**, **Konfidenz**, **p-Werte**,
+**Epistemologie**
+
+.. |image6| image:: ../images/chi2_auswertung.jpg
+
+
 Key Concepts:
 -------------
 
