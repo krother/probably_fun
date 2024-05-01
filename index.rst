@@ -25,6 +25,12 @@ Probably Fun
    articles/data_modeling.rst
    articles/links.rst
 
+.. toctree::
+   :hidden:
+
+   articles/de/memory_simulator.rst
+
+
 .. topic:: Acknowledgements
 
    Christina Paula Hilal
