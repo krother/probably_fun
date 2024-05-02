@@ -116,7 +116,7 @@ Notes
 - *50% retention* means the computer will forget every second card on average.
 - *0% retention* means the computer will not remember anything and can only find pairs by coincidence.
 - once a card is remembered, the computer will remember it for the rest of the game.
-- check out the `Python version of the memory simulator <memory_simulator.py>`__
+- check out the :download:`Python version of the memory simulator <memory_simulator.py>`
 
 .. seealso::
 

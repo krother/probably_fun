@@ -116,7 +116,7 @@ Anmerkungen
 - bei *50% Retention* vergisst der Computer im Schnitt jede zweite Karte gleich wieder.
 - bei *0% Retention* merkt sich der Computer überhaupt nichts mehr und findet Paare nur durch Zufall.
 - hat sich der Computer eine Karte erst einmal gemerkt, erinnert er sich die gesamte Partie hindurch an diese.
-- Es gibt auch eine `Python-Version des Memory-Simulators <../memory_simulator.py>`__
+- Es gibt auch eine :download:`Python-Version des Memory-Simulators <../memory_simulator.py>`
 
 .. seealso::
 
