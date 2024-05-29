@@ -13,6 +13,7 @@ Probably Fun
 
    articles/intro.rst
    articles/data_portrait.rst
+   articles/frequency.rst
    articles/centrality_and_spread.rst
    articles/probability_tree.rst
    articles/memory_simulator.rst
