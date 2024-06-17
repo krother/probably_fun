@@ -6,9 +6,6 @@ Lesson Goal:
 
 Students calculate a line of best fit.
 
-Time Frame:
------------
-
 Key Concepts:
 -------------
 
@@ -17,9 +14,6 @@ Key Concepts:
 -  slope
 -  intercept
 -  mean squared error
-
-Warmup:
--------
 
 Content Delivery:
 -----------------
@@ -33,9 +27,6 @@ Content Delivery:
 -  draw an example of confounding and discuss why the linear fit can be
    misleading
 
-Material:
----------
-
 Comments:
 ---------
 
@@ -44,7 +35,7 @@ introduction to the statistical concept, using a black-box linreg
 function like in Excel or seaborn works. Especially in a course on
 Machine Learning you might want to follow up with any of the following:
 
--  `correlation <correlation.md>`__
+-  `correlation <correlation.rst>`__
 -  multiple linear regression
 -  how to find optimal parameters (Normal Equation vs. Gradient Descent)
 -  regularization, Ridge, Lasso

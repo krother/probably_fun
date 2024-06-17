@@ -1,6 +1,10 @@
 Push your Luck with Frequencies
 ===============================
 
+.. figure:: ../images/my_gold_mine.jpg
+
+*a good moment to run in "My Gold Mine"*
+
 Goal
 ----
 
@@ -23,10 +27,8 @@ Core Concepts
 - pie chart
 
 
-The Game: My Gold
------------------
-
-TODO: image my gold mine
+The Game: My Gold Mine
+----------------------
 
 **My Gold Mine** puts the players in the role of dwarves in their daily routine: mining gold.
 Each turn they decide to mine further or exit the mine.
@@ -49,18 +51,19 @@ Lesson Plan
 1. play a few rounds of **My Gold Mine**. 
 2. ask the players how
 3. have them count the cards
-4. create a table (IMAGE)
+4. create a table (see image below)
 5. calculate absolute frequencies, relative frequencies, probabilities
 6. discuss the terminology and differences
 7. exercise: draw the frequencies as a bar chart
 8. exercise: draw the frequencies as a pie chart
 9. examine and discuss good and bad examples of charts
 
-TODO example on board
+Results
+-------
 
-TODO bar chart
+This is how the board might look like:
 
-TODO pie chart
+.. figure:: ../images/my_gold_mine_board.jpg
 
 
 Questions
@@ -74,5 +77,5 @@ Questions
 
 .. seealso::
 
-   - link my gold mine
+   - `My Gold Mine on boardgamegeek.com <https://boardgamegeek.com/boardgame/331571/my-gold-mine>`__
    - `Misty Mountains on Youtube <https://www.youtube.com/watch?v=Pyy_FIYE7EE>`__

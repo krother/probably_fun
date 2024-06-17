@@ -1,157 +1,84 @@
-Descriptive Statistics
-======================
+Descriptive Statistics with Top Trumps
+======================================
+
+.. figure:: ../images/top_trump_quartet.jpg
+
 
 Lesson Goal:
 ------------
 
-Students calculate measures of centrality and spread from data
+Students calculate measures of centrality and spread from a sample of countries.
 
 Time Frame:
 -----------
 
-180’
+90’
 
 Key Concepts:
 -------------
 
-Types of Variables
-^^^^^^^^^^^^^^^^^^
+- **Types of Variables**: category, ordinal, scalar, datetime, discrete, continuous
+- **Measures of Centrality**: mean, median, mode
+- **Measures of Spread**: range, standard deviation, quartiles
 
--  category
--  ordinal
--  scalar
--  datetime
--  discrete
--  continuous
+.. topic:: Top Trump Quartets
 
-Measures of Centrality
-^^^^^^^^^^^^^^^^^^^^^^
+   A trump quartet can be used in a variety of ways in statistics lessons.
+   Small groups can draw cards, summarise them, calculate measuers, enter data, discuss sampling etc.
+   I got hold of a deck with European countries for my lessons,
+   as I find these more interesting than the race cars or dinosaurs, which are common in the shops.
 
--  mean
--  median
--  mode
+   I have never played the actual trumps game in class, but the cards have proven an extremely
+   cost-efficient teaching tool.
 
-Measures of Spread
-^^^^^^^^^^^^^^^^^^
+Getting Started
+---------------
 
--  range
--  standard deviation
--  quartiles
+Share a country card to 5-10 small groups or pairs of students. Take one yourself.
+Explain something about the country on your card.
+Use information on the card, and others
+The others have to guess which country it is.
+Then it is the next persons turn.
 
-Warmup:
--------
+Lesson Plan
+-----------
 
-`Data Portrait
-exercise <http://www.academis.eu/statistics/exercises/centrality_and_dispersion.html>`__
-
-Content Delivery:
------------------
-
--  collect data from the data portrait in a spreadsheet (alternative:
-   use quartet cards because it is GDPR-safe)
+-  distribute a deck of quartet cards 
 -  identify variable types, enumerate them
 -  calculate measures of centrality and introduce equations
 -  discuss tricky cases add an outlier
 -  calculate measures of spread and introduce equations
 -  plot the data (bar plot and/or box plot)
--  exercise 13: Plausibility
 
 Material:
 ---------
 
-The following exercise set can be done in Python or an online
+The following exercise sets can be done in Python or an online
 spreadsheet:
 
 -  `centrality and dispersion
    exercises <http://www.academis.eu/statistics/exercises/centrality_and_dispersion.html>`__
-
-Also see:
-
 -  `Variables <http://www.academis.eu/statistics/variables.html>`__
--  `Centrality and
-   Dispersion <http://www.academis.eu/statistics/centrality_and_dispersion.html>`__
+-  `Centrality and Dispersion <http://www.academis.eu/statistics/centrality_and_dispersion.html>`__
 
-Comments:
----------
+.. hint::
+   
+   The tasks can be implemented perfectly in a **spreadsheet application**.
+   You might also use a Google Spreadsheet (add screenshot).
+   Also, a programming language or database should work without a lot of modification.
 
-This is a good topic to start a course on **descriptive statistics**
-with. The time frame includes time for front matter and getting to know
-the group.
-
-With computer scientists, I spend some time disambiguating the term
-**variable type** from **data type**.
-
-# Datentypen
-
-1. Icebreaker: Teile an jeden 2 Karten aus. Ein Teilnehmer beschreibt eine der Karten mit Hilfe der Werten darauf oder mit anderen Angaben. Die anderen raten, welches Land es ist. Dann setzt der nächste fort usw. Spielt bis zu 7 Runden. TODO Bild mit Sprechblasen
-
-# Lage- und Streumaße
-
-TODO: BILD KARTEN -> Werte
-
-## Unterrichtsziel:
-
-Die Teilnehmer berechnen Lage- und Streumaße aus einer kleinen Stichprobe von Ländern.
-
-## Begriffe
-
-* Mittelwert (arithmetisches Mittel)
-* Median
-* Modus
-* Spannweite
-* Standardabweichung
-* Quartile
-
-## Material: Quartett
-
-Ein Trumpf-Quartett lässt sich im Statistikunterricht vielfältig einsetzen: Kleingruppen können Karten ziehen, diese zusammenfassen, Lage- und Streumaße berechnen, Daten eingeben, Gruppieren usw. Für meinen Unterricht habe ich Karten mit europäischen Ländern verwendet. Diese fand ich viel interessanter als die im Handel häufigen Autos oder Dinosaurier. Es gibt Karten in zahlreichen Varianten.
-
-## Ablauf:
-
-Zeit: 90'
-
-1. Teile die Übersicht der Lage- und Streumaße aus.
-2. Bilde Gruppen von 3-5 Teilnehmern. Aufgabe ist, die Lage- und Streumaße für den eigenen Kartensatz zu berechnen
-3. Vergleicht die Ergebnisse
-4. Diskutiert die Fragen
-5. Optional: bildet eine große Stichprobe und berechnet die Streumaße für den gesamten (als Abschlußübung, Zeitpuffer oder Wiederholung am Anfang der nächsten Stunde)
-
-TODO: Beispiel Aufgaben | FUNKTIONEN
-
-## Fragen für den Unterricht
-
-* wie unterscheiden sich Median und Mittelwert?
-* wie wirken sich Ausreißer (z.B. Malta) auf die Maße aus.
-* macht es einen Unterschied, ob auf der Karte Kommazahlen oder ganze Zahlen stehen? (beim Modus ja, sonst nicht)
-* warum ist es besser, alle Karten zusammenzulegen und erst dann zu rechnen?
-
-## Hilfsmittel
-
-Diese Aufgabe läßt sich wunderbar in einer Tabellenkalkulation umsetzen. Ein Link zu einem Google Spreadsheet läßt sich teilen (SCREENSHOT).
-Es funktionieren aber auch viele andere Werkzeuge (Taschenrechner, Datenbank, Programmiersprache).
-
-## Links
-
-https://www.wendels-kartenspiele.de/product-page/ferne-länder-und-länder-europas-im-zweierpack
-
-https://en.wikipedia.org/wiki/Top_Trumps
+   Make the data entry a collaborative exercise! It will help you to balance the pace.
 
 
+Reflection questions
+--------------------
 
-----
+* what is the difference between mean and median?
+* what effect do outliers (e.g. Malta) have on the measures?
+* is it important whether a card contains integers or floating point numbers?
 
-Quartett
-~~~~~~~~
 
-Ein Trumpf-Quartett lässt sich im Statistikunterricht vielfältig
-einsetzen: Kleingruppen können Karten ziehen, diese zusammenfassen,
-Lage- und Streumaße berechnen, Daten eingeben, Gruppieren usw. Für
-meinen Unterricht konnte ich Karten mit europäischen Ländern ergattern,
-da diese für mich und die Zielgruppe interessanter sind als die im
-Handel häufigen Autos oder Dinosaurier. Dies ist noch kein Spiel an
-sich, die Einsatzmöglichkeiten im Unterricht sind aber extrem
-vielfältigt.
+.. seealso::
 
-Begriffe: **Datenmodellierung**, **Datentypen**, **Tabellen**,
-**Pivotieren**, **Plotten**, **Lagemaße**, **Streumaße**,
-**Stichproben**, **Stratifizierung**
+   `Wendels Card Games <https://www.wendels-kartenspiele.de/product-page/ferne-länder-und-länder-europas-im-zweierpack>`__
+   `Top Trupmps on Wikipedia <https://en.wikipedia.org/wiki/Top_Trumps>`__

@@ -1,6 +1,6 @@
 
-Building Cities with Expectation Values
-=======================================
+Build Cities with Expectation Values
+====================================
 
 Goal
 ----
@@ -33,26 +33,11 @@ Lesson Plan
 Extra tasks:
 ------------
 
-The alternative rolls with one or two dice are a great opportunity to introduce **histograms** and **distributions of discrete variables**. Things you can do:
+The alternative rolls with one or two dice are a great opportunity to introduce **histograms** and **distributions of discrete variables**.
+
+Things you can do:
 
 - ask students to draw a histogram of one dice roll (the probability mass function is a discrete uniform distribution)
 - ask for the probabilities of two dice rolls. Write them on the board as well.
 - ask studens to draw a histogram of two dice rolls (a triangular distribution)
 - students might also figure out the number of combinations for three dice as well. It is a bit tedious to go through all the permutations, but it is totally worth it. When they plot the histogram they might start regonizing something similar to the bell curve. In the end, you get an opportunity to introduce the **central limit theorem**, which can be explored further in an extra session on **distributions**.
-
-
-Penguin Poker
--------------
-
-|image3|
-
-Ein einfaches, reduziertes Würfelspiel, das Ideen aus Kniffeln und Texas
-5-Card aufgreift. Die Spieler würfeln einen Würfel und wetten auf eines
-von 5 Ereignissen, das nach dem Werfen von 2 weiteren Würfeln eintrifft.
-Im Unterschied zum vollständigen Poker oder Kniffel ist Pinguin Poker
-leicht komplett berechenbar.
-
-Begriffe: **Wahrscheinlichkeitsbäume**, **bedingte Wahrscheinlichkeit**,
-**Satz von Bayes**, **Erwartungswert**
-
-.. |image3| image:: ../images/pingupoker.jpg
