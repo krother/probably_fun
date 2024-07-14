@@ -12,8 +12,6 @@ Students calculate how many turns a game of memory will take.
 Lesson Plan
 -----------
 
-TODO: picture memory
-
 1. Cooperative Memory
 +++++++++++++++++++++
 
@@ -24,7 +22,7 @@ Players may give each other hints. Count how many turns you need in total.
 
 .. hint::
 
-   With 20 pairs the game takes should take about 5 minutes. With a 36 pairs about 15.
+   With 20 pairs the game takes should take about 5 minutes. With 36 pairs about 15.
 
 2. Perfect Matches
 ++++++++++++++++++
@@ -63,7 +61,11 @@ There should be 7 paths.
 
 At the bottom of each path, write the number of turns.
 
-TODO: image tree
+The result could look like this:
+
+.. figure:: ../images/memory_tree.jpg
+
+**probability tree for memory with 6 cards (including a small bug)**
 
 5. Transition Probabilities
 +++++++++++++++++++++++++++
@@ -89,11 +91,13 @@ start    p(transition 1) p(transition 2) p(transition 3)
 +++++++++++++++++++++
 
 Calculate the probability for each path by multiplying the transition probabilities.
+This is a good opportunity to introduce **joint probabilities**.
 
 7. Check
 ++++++++
 
 Make sure the probabilities add up to 1.0.
+This is a good opportunity to introduce **total probatility**.
 
 8. Simulate
 +++++++++++
@@ -102,38 +106,3 @@ By now, it should have become clear that drawing a complete probability tree eve
 
 A pragmatic approach is to **simulate** the game many times with a computer.
 Run the simulation through the :ref:`memory_simulator` and see whether you get the same probabilities.
-
-----
-
-# Wahrscheinlichkeitsbäume
-
-## Ablauf
-
-1. Spielt in Kleingruppen Memory mit je 20 Karten.
-2. zählt wie viele Züge ihr braucht
-3. Zeichnet einen Wahrscheinlichkeitsbaum für 4 Paare
-4. rechnet aus:
-
-   - wie wahrscheinlich ist es, alle Paare hintereinander zu finden?
-   - wie viele Züge braucht es im Schnitt bei einem perfekten Gedächtnis?
-   - wie viele Züge braucht es, wenn das Gedächtnis nur in 50% der Fälle funktioniert?
-
-## Schaubild:
-
-2D Matrix:
-- Zeilen == verbleibende Paare (zählt abwärts)
-- Spalten == gesehene Karten
-
-Jeder Zug hat eines der folgenden Ereignisse:
-
-ERSTE KARTE
-- neue Karte aufdecken: 1 Spalte nach rechts wenn p(Gedächtnis) erfolgreich
-
-ZWEITE KARTE
-- wenn erste Karte schon bekannt: 1 Zeile nach unten und 1 Spalte nach links
-- ansonsten zweite Karte aufdecken
-
-
-## Material
-
-Ein Memory Spiel mit 20 Karten.

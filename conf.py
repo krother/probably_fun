@@ -22,7 +22,7 @@ extensions = [
     ]
 
 templates_path = ['_templates']
-exclude_patterns = ['README.md', '_build', 'Thumbs.db', '.DS_Store', 'de/*']
+exclude_patterns = ['README.md', '_build', 'Thumbs.db', '.DS_Store', 'articles/de/*']
 
 language = 'ls'
 
@@ -46,8 +46,8 @@ html_theme_options = {
     'logo': 'academis.png',
     'github_user': 'krother',
     'github_repo': 'probably_fun',
-    'show_relbar_top' : False,
-    'show_relbar_bottom' : False,
+    'show_relbar_top' : True,
+    'show_relbar_bottom' : True,
 }
 
 # ---- Options for PDF output ----
