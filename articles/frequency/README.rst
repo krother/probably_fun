@@ -2,6 +2,7 @@ Push your Luck with Frequencies
 ===============================
 
 .. figure:: ../../images/my_gold_mine.jpg
+   :width: 800
 
 *a good moment to run in "My Gold Mine"*
 
