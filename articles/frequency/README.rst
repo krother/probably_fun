@@ -1,7 +1,7 @@
 Push your Luck with Frequencies
 ===============================
 
-.. figure:: ../../images/my_gold_mine.jpg
+.. figure:: my_gold_mine.jpg
    :width: 800
 
 *a good moment to run in "My Gold Mine"*
@@ -84,7 +84,7 @@ Results
 
 This is how the board might look like:
 
-.. figure:: ../images/my_gold_mine_board.jpg
+.. figure:: my_gold_mine_board.jpg
 
 Here are some bar and pie charts created with a :download:`plots.py`:
 
