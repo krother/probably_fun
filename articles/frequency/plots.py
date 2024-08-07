@@ -9,16 +9,22 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 
 # create data
-s = pd.Series([29, 15, 5, 9], index=list("one gold,two gold,one gold/back,dragon".split(",")))
+data = [29, 15, 5, 9]
+labels = list("one gold,two gold,gold+back,dragon".split(","))
+s = pd.Series(data, index=labels)
 
 # vertical bar plot
+fig = plt.figure()
 s.plot.bar(figsize=(5, 5), color=["#4444cc", "#8888ff", "#bbbbff", "firebrick"])
 plt.ylabel("card count")
+fig.subplots_adjust(bottom=0.2)
 plt.savefig("bar_vert.png", dpi=100)
 
 # horizontal bar plot
-s.plot.barh(figsize=(5, 5), color=["#4444cc", "#8888ff", "#bbbbff", "firebrick"])
+fig = plt.figure()
+s.plot.barh(figsize=(6, 5), color=["#4444cc", "#8888ff", "#bbbbff", "firebrick"])
 plt.xlabel("card count")
+fig.subplots_adjust(left=0.2)
 plt.savefig("bar_horiz.png", dpi=100)
 
 # pie chart

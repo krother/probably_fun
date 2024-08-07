@@ -21,7 +21,6 @@ Core Concepts
 
 - absolute frequency
 - relative frequency
-- ratio
 - percentage
 - probability
 - bar plot
@@ -45,7 +44,7 @@ The mining expedition quickly turns into a messy *"get rich or die trying"* scen
    The mine + dwarf + dragon theme is engaging and the number of cards actually results
    in interesting charts.
 
-.. topic:: What if I don't have any of these games?
+   **What if I don't have any of these games?**
 
    The main point is that you have a diverse set of countable items.
    The lesson structure works by counting the items in a box of chess pieces or a bag of candies.
@@ -86,7 +85,7 @@ This is how the board might look like:
 
 .. figure:: my_gold_mine_board.jpg
 
-Here are some bar and pie charts created with a :download:`plots.py`:
+Here are some bar and pie charts created with the Python script :download:`plots.py`:
 
 .. figure:: bar_vert.png
    
