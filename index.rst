@@ -20,6 +20,7 @@ Probably Fun
    articles/expectation_values.rst
    articles/correlation.rst
    articles/distributions.rst
+   articles/age_of_ai/README.rst
    articles/entropy.rst
    articles/network_centrality.rst
    articles/linear_regression.rst
@@ -41,7 +42,8 @@ Probably Fun
    I thank my fellow participants at the Brettspielakademie courses in Hamburg and Herne.
    Special thanks go to John Zimmer, Florian Mueck, Adam Weisbart and the developers of the Stryer Biochemistry Game
    who were the first to show me that you can make teaching games that are actually fun to play.
-   Finally, I'd like to thank all my students at the SRH University Berlin who playtested my lessons.
+   Finally, I'd like to thank all my students at the SRH University Berlin and the Fresenius University Berlin
+   who playtested my lessons.
    
    **It was fun playing with you!**
 
