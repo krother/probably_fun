@@ -1,6 +1,6 @@
 
-Network Centrality in Pandemic
-==============================
+Pandemic Centrality
+===================
 
 .. figure:: ../images/pandemic.jpg
 

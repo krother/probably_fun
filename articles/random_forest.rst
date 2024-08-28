@@ -1,6 +1,6 @@
 
-Guess the Animals with Decision Trees
-=====================================
+Animal Decision Tree
+====================
 
 Goal
 ----

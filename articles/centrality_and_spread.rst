@@ -1,5 +1,5 @@
-Descriptive Statistics with Top Trumps
-======================================
+Top Trump Statistics
+====================
 
 .. figure:: ../images/top_trump_quartet.jpg
 

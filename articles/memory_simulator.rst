@@ -1,9 +1,8 @@
 
 .. _memory_simulator:
 
-Memory Game Simulation
-======================
-
+Memory Simulation
+=================
    
 .. figure:: ../images/memory.jpg
 

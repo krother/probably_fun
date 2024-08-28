@@ -1,6 +1,6 @@
 
-The Entropy of Wordle
-=====================
+Wordle Entropy
+==============
 
 |image2|
 
@@ -11,14 +11,10 @@ Goal
 
 Students solve Wordles at the beginning of a class.
 
-Getting Started
----------------
+Time
+----
 
-Wordle is a great warm-up game for lessons that can be used repeatedly.
-It is also fantastic for statistics, as it illustrates the topics **conditional probability** and **information theory**.
-
-Good words for getting started are: **RANGE**, **TABLE**, **PIVOT** and **BAYES**.
-
+5'
 
 Concepts
 --------
@@ -26,6 +22,16 @@ Concepts
 - GINI-Score
 - Entropy
 - Mutual Information
+
+
+The Game
+--------
+
+Wordle is a great warm-up game for lessons that can be used repeatedly.
+It is also fantastic for statistics, as it illustrates the topics **conditional probability** and **information theory**.
+
+Good words for getting started are: **RANGE**, **TABLE**, **PIVOT** and **BAYES**.
+
 
 Lesson Plan
 -----------
@@ -47,9 +53,11 @@ and skills in a programing language, because the task will get rather tedious in
 
 .. seealso::
 
-    - `Wordle on Wikipedia <https://en.wikipedia.org/wiki/Wordle>`__
+    `Wordle on Wikipedia <https://en.wikipedia.org/wiki/Wordle>`__
 
 .. |image2| image:: ../images/wordle.jpg
 
-*using Wordle in a classroom was brought to me by Christina.*
+.. note::
+
+   *using Wordle in a classroom was brought to me by Christina.*
 

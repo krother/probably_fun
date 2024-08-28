@@ -1,13 +1,13 @@
-Bake Dice to test a Hypothesis
-==============================
+Dice Bakery Hypothesis
+======================
 
 Lesson Goal:
 ------------
 
 Students test whether a six-sided die is balanced.
 
-Time Frame:
------------
+Time
+----
 
 90’
 

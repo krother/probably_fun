@@ -1,6 +1,6 @@
 
-The Probability Tree of Memory
-==============================
+Memory Probability Tree
+=======================
 
 .. figure:: ../images/memory.jpg
 

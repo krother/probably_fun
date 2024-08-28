@@ -1,11 +1,16 @@
 
-Draw your Data Portrait
-=======================
+Data Portrait
+=============
 
 Goal
 ----
 
 Students generate data about themselves.
+
+Time
+----
+
+5'
 
 Instructions
 ------------
