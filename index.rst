@@ -25,7 +25,7 @@ Probably Fun
    articles/network_centrality.rst
    articles/linear_regression.rst
    articles/hypothesis_testing.rst
-   articles/data_modeling.rst
+   articles/data_modeling/README.rst
    articles/links.rst
 
 .. toctree::
