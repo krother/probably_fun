@@ -11,40 +11,44 @@ Time
 
 90’
 
-Motivation
-----------
+Baking Dice
+-----------
 
-This is a didactic *"recipe"* of a special kind:
-I put dice (W6) in the oven and baked them at 120-140 degrees for 10-20 minutes.
-If the temperature is too high, the cube turns into an amorphous shape. If it is too low, nothing happens.
-However, if the conditions are right, the cube becomes so slightly deformed that it rolls certain numbers more frequently.
+This is a didactic *"recipe"* of a special kind.
+To prepare the lesson you need a box of six-sided dice.
+I recommend standard dice without any glitter or fancy stuff.
+Now, bake them:
 
-Such a distorted cube is a fantastic way to discuss the question: *"Can we prove that a cube is distorted?"*.
-It is a great opportunity to introduce hypothesis teting.
-Answering the question also opens up a deeper perspective: *"How can we know anything at all?"*.
+* pre-heat the oven to 120 degrees Celsius
+* put a six-sided die into the oven
+* bake it for 10-20 minutes. Use a stopwatch!s
+* take out the die and throw it into iced water
+* repeat with another die, vary conditions slightly
 
+If the temperature is too high, the cube turns into an amorphous shape.
+If it is too low, nothing happens.
+However, if the conditions are right, the dice becomes slightly deformed so that it rolls certain numbers more frequently.
 
-Key Concepts:
--------------
+Such manipulated dice are a fantastic way to discuss the question:
+*"Can we prove that the die is manipulated?"*.
+This is where **hypothesis testing** comes in.
+
+.. hint::
+
+   The temperature in most ovens is not very stable, you may want to bake
+   one die at a time. If you have a strong group, make this a homework.
+
+Concepts
+--------
 
 -  null hypothesis (H0)
 -  alternative hypothesis
 -  test statistic
 -  Chi-square-test
 -  significance threshold (alpha)
--  critical region
 -  p-value
 -  predictive power
 
-Prepare forged dice:
---------------------
-
-1. buy a box of D6
-2. bake them at 120°-140° for 10-20 minutes
-3. then throw into ice water
-
-The temperature in most ovens is not very stable, you may want to bake
-one die at a time. If you have a strong group, make this a homework.
 
 Warmup:
 -------
@@ -57,34 +61,38 @@ marks about how often each number occurs.
 Lesson Plan
 -----------
 
-Present and go through the following recipe:
+Present and go through the following sequence:
 
-1. decide on a null hypothesis to test (*“the D6 follows a uniform
-   distribution”*)
-2. choose test statistic
-3. decide on alpha
+1. decide on a null hypothesis to test (*“the D6 follows a uniform distribution”*)
+2. choose a test statistic (:math:`\chi^2`)
+3. decide on the significance threshold alpha
 4. determine the critical region
 5. calculate the test statistic
 6. see whether the result is in the critical region
 7. accept or reject H0
 
 Collect the numbers from the dice rolls **only after** deciding on the
-value for alpha. Write them into a table and ask with the class what
-they think.
-
+value for alpha.
+Write them into a table and ask the class what they think.
 Only after that, calculate the test statistic:
 
 :math:`\chi^2 = \sum \frac{(O_i-E_i)^2}{E}`
 
 where E would be 20 for 120 dice rolls.
 
-Look up the critical values for the Chi-square test statistic using any
-online tool. The number of degrees of freedom is five.
+Look up the critical values for the Chi-square test statistic using any online tool.
+The number of degrees of freedom is five.
 
 The result might look like this:
 
-|image6|
+.. figure:: ../images/chi2_auswertung.jpg
+   :width: 800px
 
+.. hint::
+
+   I emphasize that it is easy to mess up a hypothesis test.
+   To double-check the results, you can enter them into a LLM like ChatGPT.
+   It usually comes up with the correct result and produces a nicely formatted explanation.
 
 Comments:
 ---------
@@ -96,4 +104,4 @@ testing.
 Instead, I spent quite some time to attach huge warnings to the method
 and gave examples for p-hacking and the reproducibility crisis.
 
-.. |image6| image:: ../images/chi2_auswertung.jpg
+I also attached a discourse on epistemology and the scientific method: *"How can we know anything at all?"*.
