@@ -3,6 +3,7 @@ Memory Probability Tree
 =======================
 
 .. figure:: ../images/memory.jpg
+   :width: 800px
 
 Goal
 ----
@@ -64,6 +65,7 @@ At the bottom of each path, write the number of turns.
 The result could look like this:
 
 .. figure:: ../images/memory_tree.jpg
+   :width: 800px
 
 **probability tree for memory with 6 cards (including a small bug)**
 
@@ -72,20 +74,27 @@ The result could look like this:
 
 Annotate the tree with probabilities for going from one node to the next.
 Although many nodes have only one possibility, this needs an entire board.
+The nodes have up to three possible transitions.
+The complete set of transitions looks like this:
 
 ======== =============== =============== ===============
-start    p(transition 1) p(transition 2) p(transition 3)
+start    transition 1    transition 2    transition 3
 ======== =============== =============== ===============
-6:0      p(4:0) = 0.2    p(6:2) = 0.8
-6:2      ...
-6:4x     ...
-4:0      p(2:0) = 0.333  p(4:2) = 0.666
-4:1      p(2:0) = 0.333  p(2:1) = 0.5    p(4:3x) = 0.167
-4:2      p(4:1) = 1.0
-4:3x     p(2:1) = 1.0
-2:0      p(0:0) = 1.0
-2:1      p(0:0) = 1.0
+6:0      p(4:0) = 1/5    p(6:2) = 4/5
+6:2      p(4:2) = 1/3    p(4:1) = 1/2    p(6:4x) = 1/6
+6:4x     p(4:2) = 1/1
+4:0      p(2:0) = 1/3    p(4:2) = 2/3
+4:1      p(2:0) = 1/3    p(2:1) = 1/2    p(4:3x) = 1/6
+4:2      p(4:1) = 1/1
+4:3x     p(2:1) = 1/1
+2:0      p(0:0) = 1/1
+2:1      p(0:0) = 1/1
 ======== =============== =============== ===============
+
+Read the table like this:
+
+- *if there are 6 cards left and I have seen none of them (6:0), there is a 20% chance that I will find a pair and move to state (4:0)*
+- *if there are 4 cards left and I have already seen 2 cards with different pictures (4:2), there is a 2/3 chance that I won't find any pair and therefore move to (4:2).*
 
 6. Path Probabilities
 +++++++++++++++++++++

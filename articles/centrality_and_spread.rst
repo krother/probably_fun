@@ -2,6 +2,7 @@ Top Trump Statistics
 ====================
 
 .. figure:: ../images/top_trump_quartet.jpg
+   :width: 800px
 
 
 Lesson Goal:
@@ -21,15 +22,16 @@ Key Concepts:
 - **Measures of Centrality**: mean, median, mode
 - **Measures of Spread**: range, standard deviation, quartiles
 
-.. topic:: Top Trump Quartets
+Top Trump Quartets
+------------------
 
-   A trump quartet can be used in a variety of ways in statistics lessons.
-   Small groups can draw cards, summarise them, calculate measuers, enter data, discuss sampling etc.
-   I got hold of a deck with European countries for my lessons,
-   as I find these more interesting than the race cars or dinosaurs, which are common in the shops.
+A trump quartet can be used in a variety of ways in statistics lessons.
+Small groups can draw cards, summarise them, calculate measuers, enter data, discuss sampling etc.
+I got hold of a deck with European countries for my lessons,
+as I find these more interesting than the race cars or dinosaurs, which are common in the shops.
 
-   I have never played the actual trumps game in class, but the cards have proven an extremely
-   cost-efficient teaching tool.
+I have never played the actual trumps game in class, but the cards have proven an extremely
+cost-efficient teaching tool.
 
 Getting Started
 ---------------
@@ -50,24 +52,15 @@ Lesson Plan
 -  calculate measures of spread and introduce equations
 -  plot the data (bar plot and/or box plot)
 
-Material:
----------
+.. seealso::
 
-The following exercise sets can be done in Python or an online
-spreadsheet:
-
--  `centrality and dispersion
-   exercises <http://www.academis.eu/statistics/exercises/centrality_and_dispersion.html>`__
--  `Variables <http://www.academis.eu/statistics/variables.html>`__
--  `Centrality and Dispersion <http://www.academis.eu/statistics/centrality_and_dispersion.html>`__
-
-.. hint::
-   
+   Here are some `Exercises on Centrality and Dispersion <http://www.academis.eu/statistics/exercises/centrality_and_dispersion.html>`__.
    The tasks can be implemented perfectly in a **spreadsheet application**.
    You might also use a Google Spreadsheet (add screenshot).
-   Also, a programming language or database should work without a lot of modification.
+   Also, a programming language like Python or a database should work.
 
-   Make the data entry a collaborative exercise! It will help you to balance the pace.
+   Make the data entry a collaborative exercise!
+   It will help you to balance the pace.
 
 
 Reflection questions
@@ -77,8 +70,7 @@ Reflection questions
 * what effect do outliers (e.g. Malta) have on the measures?
 * is it important whether a card contains integers or floating point numbers?
 
-
 .. seealso::
 
-   `Wendels Card Games <https://www.wendels-kartenspiele.de/product-page/ferne-länder-und-länder-europas-im-zweierpack>`__
-   `Top Trupmps on Wikipedia <https://en.wikipedia.org/wiki/Top_Trumps>`__
+   - `Wendels Card Games <https://www.wendels-kartenspiele.de/product-page/ferne-länder-und-länder-europas-im-zweierpack>`__
+   - `Top Trumps on Wikipedia <https://en.wikipedia.org/wiki/Top_Trumps>`__

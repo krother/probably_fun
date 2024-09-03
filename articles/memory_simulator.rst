@@ -5,8 +5,9 @@ Memory Simulation
 =================
    
 .. figure:: ../images/memory.jpg
+   :width: 800px
 
-Have you ever wondered, how many turns it takes to match all pairs in a game of `Memory <https://en.wikipedia.org/wiki/Concentration_(card_game)>`__ ?
+Have you ever wondered, how many turns it takes to match all pairs in a game of `Memory <https://en.wikipedia.org/wiki/Concentration_(card_game)>`__?
 Let simulate many, many games in the computer and check how many turns they need.
 
 The Simulation

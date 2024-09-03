@@ -2,9 +2,10 @@
 Wordle Entropy
 ==============
 
-|image2|
+.. figure:: ../images/wordle.jpg
+   :width: 800px
 
-**Wordle on the board**
+*Wordle on the board*
 
 Goal
 ----
@@ -54,8 +55,6 @@ and skills in a programing language, because the task will get rather tedious in
 .. seealso::
 
     `Wordle on Wikipedia <https://en.wikipedia.org/wiki/Wordle>`__
-
-.. |image2| image:: ../images/wordle.jpg
 
 .. note::
 

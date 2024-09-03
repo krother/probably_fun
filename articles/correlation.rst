@@ -2,6 +2,7 @@ Guess Correlations
 ==================
 
 .. figure:: ../images/bulgaria.jpg
+   :width: 800px
 
 *Do bigger countries contain more people?*
 
