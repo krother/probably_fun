@@ -73,6 +73,11 @@ Lesson Plan
     If the students did not have previous exposure to SQL you may want to move the implementation
     of the SQL database to a follow-up lesson.
 
+.. figure:: splendor_big.jpg
+   :width: 800px
+
+*ER-diagram for an SQL data model created by students (in German). The model is certainly improvable but as a first attempt it is an important achievement.*
+
 Results
 -------
 
