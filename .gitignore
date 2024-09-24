@@ -11,3 +11,4 @@ book.pdf
 build/doctrees build/html
 build/*
 .vscode/*
+.ipynb_checkpoints*
