@@ -16,3 +16,4 @@ for fn in os.listdir("."):
         im = Image.open(fn)
         if im.size != TARGET:
             print(fn, im.size)
+        
