@@ -7,9 +7,11 @@ Probably Fun
 
 **by Dr. Kristian Rother**
 
-.. topic:: Probably Fun auf Deutsch
+.. info:: 
 
-   Hier findest Du die :ref:`german` auf Deutsch.
+   **Probably Fun auf Deutsch**
+
+   Hier findest Du die :ref:`articles/german.rst` auf Deutsch.
 
 
 .. toctree::
