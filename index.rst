@@ -7,6 +7,11 @@ Probably Fun
 
 **by Dr. Kristian Rother**
 
+.. topic:: Probably Fun auf Deutsch
+
+   Hier findest Du die :ref:`german` auf Deutsch.
+
+
 .. toctree::
    :maxdepth: 3
    :titlesonly:
@@ -31,6 +36,7 @@ Probably Fun
 .. toctree::
    :hidden:
 
+   articles/german.rst
    articles/de/memory_simulator.rst
 
 
