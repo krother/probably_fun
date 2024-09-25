@@ -11,7 +11,7 @@ Probably Fun
 
    **Probably Fun auf Deutsch**
 
-   Hier findest Du die :ref:`articles/german.rst` auf Deutsch.
+   Hier findest Du die :ref:`german` auf Deutsch.
 
 
 .. toctree::

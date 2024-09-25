@@ -1,4 +1,6 @@
 
+.. _german:
+
 Unterrichtspläne
 ================
 
@@ -6,17 +8,17 @@ Unterrichtspläne
 
 **Die Probably Fun Unterrichtspläne als PDF zum Download** 
 
-* :download:`de/Anno_AI.pdf`
-* :download:`de/Erwartungswerte.pdf`
-* :download:`de/Bayes.pdf`
-* :download:`de/Frequenzen.pdf`
-* :download:`de/Binomialverteilung.pdf`
-* :download:`de/Hypothesentests.pdf`
-* :download:`de/Datenmodellierung.pdf`
-* :download:`de/Korrelation.pdf`
-* :download:`de/Datentypen.pdf`
-* :download:`de/Lage_und_Streumasse.pdf`
-* :download:`de/Entropie.pdf`
-* :download:`de/Wahrscheinlichkeitsbäume.pdf`
+* :download:`Anno AI<de/Anno_AI.pdf>`
+* :download:`Frequenzen in der Goldmine<de/Frequenzen.pdf>`
+* :download:`Lage_und_Streumasse im Trumpfquartett<de/Lage_und_Streumasse.pdf>`
+* :download:`Datentypen im Trumpfquartett<de/Datentypen.pdf>`
+* :download:`Korrelationen im Länderquartett<de/Korrelation.pdf>`
+* :download:`Armadillos mit Erwartungen<de/Erwartungswerte.pdf>`
+* :download:`Binomialer Zauberberg<de/Binomialverteilung.pdf>`
+* :download:`Die Wordle-Entropie<de/Entropie.pdf>`
+* :download:`Hypothesentest für gebackene Würfel<de/Hypothesentests.pdf>`
+* :download:`Datenmodellierung mit Splendor<de/Datenmodellierung.pdf>`
+* :download:`Sky Bayes<de/Bayes.pdf>`
+* :download:`Der Memory-Wahrscheinlichkeitsbaum<de/Wahrscheinlichkeitsbäume.pdf>`
 
 **sämtliche Inhalte sind unter der Creative Commons Attribution Share Alike License 4.0 verfügbar**
