@@ -7,7 +7,7 @@ Probably Fun
 
 **by Dr. Kristian Rother**
 
-.. info:: 
+.. hint:: 
 
    **Probably Fun auf Deutsch**
 
