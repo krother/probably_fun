@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            height: 100vh;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #mainText {
+            font-size: 32px;
+            color: #4a90e2;
+            margin: 20px;
+        }
+
+        #randomImage {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mainText">Welcome to Probably Fun</h1>
+    
+    <!-- Form to upload image files -->
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <button type="submit">Upload Image</button>
+    </form>
+    
+    <!-- Form to submit image link -->
+    <form method="POST">
+        <input type="url" name="image_link" placeholder="Enter image URL">
+        <button type="submit">Add Image Link</button>
+    </form>
+
+    <h2>Random Image Generator</h2>
+    <button onclick="displayRandomImage()">Show Random Image</button>
+    <img id="randomImage" alt="Random Image" src="" width="400">
+
+    <script>
+        const images = {{ images|tojson }};  // Pass images list from Flask to JavaScript
+
+        function displayRandomImage() {
+            if (images.length > 0) {
+                const randomIndex = Math.floor(Math.random() * images.length);
+                const randomImage = images[randomIndex];
+                document.getElementById("randomImage").src = randomImage;
+            } else {
+                alert("No images available");
+            }
+        }
+    </script>
+</body>
+</html>
