@@ -10,6 +10,7 @@ project = 'Probably Fun'
 copyright = '2024, Kristian Rother'
 author = 'Kristian Rother'
 release = '1.0'
+html_title = project
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -24,32 +25,25 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['README.md', '_build', 'Thumbs.db', '.DS_Store', 'articles/de/*']
 
-language = 'ls'
+language = 'en'
 
 # ---- Options for HTML output ----
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'academis_sphinx_theme'
+html_theme = 'furo'
 html_theme_path = ['themes']
 html_static_path = ['_static']
+html_logo = "_static/academis_logo.png"
 html_favicon = "_static/favicon.ico"
 
-html_sidebars = {
-    '**': [
-        #'about.html',
-        #'localtoc.html',
-        #'navigation.html',
-        #'searchbox.html',
-    ]
-}
+html_css_files = [
+    "academis.css",
+]
 html_theme_options = {
-    'logo': 'academis.png',
-    'github_user': 'krother',
-    'github_repo': 'probably_fun',
-    'show_relbar_top' : True,
-    'show_relbar_bottom' : True,
+    "source_repository": "https://github.com/krother/probably_fun",
+    "source_branch": "main",
+    "source_directory": "",
 }
-
 # ---- Options for PDF output ----
 
 latex_elements = {
