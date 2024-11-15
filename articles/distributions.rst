@@ -6,7 +6,7 @@ Binomial Magic Mountain
 Goal
 ----
 
-Students see the progression from a simple binomial distribution to a bell curve.
+Students create the progression from a simple binomial distribution to a bell curve.
 
 Time
 ----

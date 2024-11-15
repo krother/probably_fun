@@ -31,7 +31,7 @@ The Game
 Wordle is a great warm-up game for lessons that can be used repeatedly.
 It is also fantastic for statistics, as it illustrates the topics **conditional probability** and **information theory**.
 
-Good words for getting started are: **RANGE**, **TABLE**, **PIVOT** and **BAYES**.
+Good words for getting started are: **MEDIAN**, **RANGE**, **TABLE**, **PIVOT**, **EXCEL** and **BAYES**.
 
 
 Lesson Plan

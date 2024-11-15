@@ -84,6 +84,7 @@ Results
 This is how the board might look like:
 
 .. figure:: my_gold_mine_board.jpg
+   :width: 800
 
 Here are some bar and pie charts created with the Python script :download:`plots.py`:
 
