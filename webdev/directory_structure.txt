@@ -1,0 +1,15 @@
+.
+├───.venv
+├───instance
+│   └───users.db
+├───static
+│   ├───uploads
+│   ├───script.js
+│   └───style.css
+├───templates
+│   ├───landing_screen.html
+│   ├───login.html
+│   ├───randomgenerator.html
+│   ├───signup.html
+│   └───welcome.html
+└───app.py

@@ -1,0 +1,302 @@
+/* General body styling for all pages */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Top Navigation Bar */
+.topnav {
+    width: 100%;
+    background-color: #e35278;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.topnav a:hover {
+    background-color: #d0416d;
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Container styling */
+.signup-container {
+    background-color: white;
+    color: #e35278; /* Pink text */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto; /* Centers horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers vertically and horizontally */
+}
+
+
+/* Styling for headings and labels */
+h1, label {
+    color: #e35278;
+}
+
+/* Styling for input groups */
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group input, .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* General button styling */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e35278;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d0416d;
+}
+
+/* Hidden class for elements */
+.hidden {
+    display: none;
+}
+
+/* Popup styling */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+.popup h2 {
+    color: #e35278;
+}
+.popup button {
+    background-color: #e35278;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px 16px;
+}
+.popup button:hover {
+    background-color: #d0416d;
+}
+
+/* Alert messages */
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Additional styling for specific pages */
+
+
+/* welcome.html */
+#container {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #e35278;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the container take the full height of the viewport */
+    text-align: center;
+}
+
+.letter {
+    opacity: 0;
+    display: inline-block;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* error_ messages */
+.flashes {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.flashes .error {
+    color: red;
+    font-weight: bold;
+}
+
+.flashes .success {
+    color: green;
+    font-weight: bold;
+}
+
+/* landing screen */
+/* Container styling for the landing screen */
+.container {
+    background-color: white;
+    color: #e35278; /* Pink text */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Styling for headings and input labels */
+h1, label {
+    color: #e35278;
+}
+
+/* Input styling for file upload */
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* General button styling for upload, back, and generate buttons */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e35278;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d0416d;
+}
+
+/* Hidden class for toggling visibility */
+.hidden {
+    display: none;
+}
+
+/* Success message styling */
+#successMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Popup styling for the timer options */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+.popup h2 {
+    color: #e35278;
+}
+.popup button {
+    background-color: #e35278;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px 16px;
+}
+.popup button:hover {
+    background-color: #d0416d;
+}
+
+/* Image container styling */
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#randomImage {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* Timer container styling */
+.timer-container {
+    position: absolute;
+    right: 20px; /* Adjust as needed */
+    top: 70px; /* Adjust to position below the top nav */
+    background-color: white; /* Background for visibility */
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 100px; /* Set a minimum width for the container */
+    text-align: center; /* Center the text inside the container */
+}
+
+/* Timer styling */
+.timer {
+    font-size: 36px; /* Increased font size for better visibility */
+    color: #4a90e2; /* Timer color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

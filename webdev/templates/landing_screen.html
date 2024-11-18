@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    {% extends "base.html" %}
+
+    {% block title %}Landing Screen{% endblock %}
+
+    {% block content %}
+    <div class="containerwhatever">
+        <h1>Upload Images</h1>
+
+        <!-- Upload input and buttons -->
+        <div class="input-group">
+            <label for="imageInput">Upload Images:</label>
+            <input type="file" id="imageInput" multiple accept="image/*" onchange="toggleUploadButtons()">
+        </div>
+
+        <button id="uploadButton" class="hidden" onclick="handleUpload()">Upload</button>
+        <button id="backButton" class="hidden" onclick="handleBack()">Back</button>
+        <button id="generateButton" class="hidden" onclick="showTimerOptions()">Generate Random</button>
+
+        <div id="successMessage" class="hidden">Images uploaded successfully!</div>
+
+        <!-- Timer selection popup -->
+        <div id="timerPopup" class="popup hidden">
+            <h2>Select Timer</h2>
+            <button onclick="startTimer(20)">20 Seconds</button>
+            <button onclick="startTimer(40)">40 Seconds</button>
+            <button onclick="startTimer(60)">1 Minute</button>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>

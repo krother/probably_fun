@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Random Image Generator{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="timer-container">
+        <div class="timer" id="timer">20</div>
+    </div>
+    <div class="imageContainer">
+        <img id="randomImage" src="" alt="Random Image" style="max-width: 100%; height: auto; display: none;">
+    </div>
+</div>
+<script>
+    let countdown;
+    let remainingTime;
+
+    // Function to fetch and display a new random image
+    function fetchRandomImage() {
+        fetch("/get_random_image")
+            .then(response => response.json())
+            .then(data => {
+                if (data.done) {
+                    window.location.href = "/landing";
+                } else if (data.image_url) {
+                    const imgElement = document.getElementById("randomImage");
+                    imgElement.src = data.image_url;
+                    imgElement.style.display = "block"; // Show the image when it's loaded
+
+                    // Reset the timer to the selected interval
+                    resetTimer();
+                } else {
+                    alert("Error: No images found.");
+                }
+            })
+            .catch(error => console.error("Error fetching image:", error));
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    remainingTime = parseInt(urlParams.get("timer")); // Default to 20 seconds
+    document.getElementById("timer").innerText = remainingTime; // Display initial time
+
+    // Function to start the countdown
+    function startCountdown() {
+        countdown = setInterval(() => {
+            remainingTime--;
+            document.getElementById("timer").innerText = remainingTime; // Update timer display
+            if (remainingTime <= 0) {
+                clearInterval(countdown);
+                fetchRandomImage(); // Fetch a new image when the timer reaches zero
+            }
+        }, 1000);
+    }
+
+    // Function to reset the timer
+    function resetTimer() {
+        clearInterval(countdown); // Clear the existing countdown
+        remainingTime = parseInt(urlParams.get("timer")); // Reset to the selected timer value
+        document.getElementById("timer").innerText = remainingTime; // Update the timer display
+        startCountdown(); // Start the countdown again
+    }
+
+    setInterval(fetchRandomImage, remainingTime * 1000);
+    fetchRandomImage();
+    startCountdown(); // Start the countdown
+</script>
+{% endblock %}
