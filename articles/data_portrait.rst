@@ -15,14 +15,16 @@ Time
 Instructions
 ------------
 
-Take a piece of paper
+Draw on a piece of paper:
 
--  draw as many **squares** as your name has characters
--  draw **circles** for the number of people in your household
--  draw a **symbol** that indicates your country of birth
--  draw your favourite **mode of transportation**: legs for walking, two
+-  one **square** for each character in your name
+-  **circles** indicating your relative age among your siblings (oldest, 2nd oldest)
+-  a **symbol** that indicates your country of birth
+-  your favourite **mode of transportation**: legs for walking, two
    circles for biking, a box with wheels for cars/trains and wings for flying
--  **charge%** of your mobile device as a battery with 0-5 bars
+-  your birthday using **crosses** for the month and **tick marks** for the day
+
+----
 
 Teaching notes
 --------------
