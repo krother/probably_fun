@@ -11,9 +11,21 @@ The Twenty Questions Game
 -------------------------
 
 One player thinks of an animal. The others try to guess it by asking questions.
-The first player only answers "yes" or "no".
+The first player only answers "yes" or "no":
 
-TODO image dialog.
+::
+
+    Q: can it fly?
+    A: no
+
+    Q: does it have 4 legs?
+    A: no
+
+    Q: is it a snake?
+    A: yes
+
+    Q: is it a Python?
+    A: yes!
 
 Decision Trees are machine learning models that identify questions to make efficient predictions. They are the computerized version of the twenty questions game.
 
@@ -28,17 +40,25 @@ Lesson Plan
 1. Play a few rounds "Twenty Questions" with the class. You think of the first animal, students of the next.
 2. Discuss components of a tree (see Figure)
 3. ask students to draw a tree for a set of training data
+4. put the trees on display in class
+5. make predictions for all animals in the test set for all trees
+6. calculate the accuracy of each individual tree
+7. make a consensus prediction (majority vote)
+8. calculate the accuracy of the consensus
 
-You need for each group a bag with the same number of animals. 
-4-6 animals is a good number. Some of the animals should be the same in multiple bags, some could be unique.
 
-Also prepare a bag with 
+You need for each group a bag with 4 different animals.
+The animals should be from a pool of 6-8 distinct animals.
 
-FOTO BEUTEL TIERE
+Also prepare a bag with 4-8 animals from the same pool for testing.
+
+
+.. note::
+
+    The choice of animals is crucial for how good the random forest works.
 
 Material
 --------
-
 
 .. seealso::
 
