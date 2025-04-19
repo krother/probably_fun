@@ -22,6 +22,7 @@ Probably Fun
    articles/data_portrait.rst
    articles/frequency/README.rst
    articles/centrality_and_spread.rst
+   articles/stats_memory.rst
    articles/probability_tree.rst
    articles/memory_simulator.rst
    articles/expectation_values.rst
