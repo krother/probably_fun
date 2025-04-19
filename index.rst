@@ -25,6 +25,7 @@ Probably Fun
    articles/stats_memory.rst
    articles/probability_tree.rst
    articles/memory_simulator.rst
+   articles/armadillos.rst
    articles/expectation_values.rst
    articles/correlation.rst
    articles/distributions.rst

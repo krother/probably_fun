@@ -2,11 +2,13 @@
 Urban Expectation Values
 ========================
 
-TODO: Machi Koro flavor image
-
 Goal
 ----
-Students calculate expectation values in a dice game.
+Students calculate expectation values in the dice game **Machi Koro**.
+
+.. note::
+
+   This is a longer variant of the lesson using the **Armadillo** game.
 
 Time
 ----
@@ -72,15 +74,6 @@ Things you can do:
 - ask for the probabilities of two dice rolls. Write them on the board as well.
 - ask studens to draw a histogram of two dice rolls (a triangular distribution)
 - students might also figure out the number of combinations for three dice as well. It is a bit tedious to go through all the permutations, but it is totally worth it. When they plot the histogram they might start regonizing something similar to the bell curve. In the end, you get an opportunity to introduce the **central limit theorem**, which can be explored further in an extra session on **distributions**.
-
-Results
--------
-
-TODO: drawing expectation values
-
-TODO: histogram uniform
-
-TODO: histogram triangular
 
 
 Reflection Questions
