@@ -24,7 +24,7 @@ Draw on a piece of paper:
    circles for biking, a box with wheels for cars/trains and wings for flying
 -  your birthday using **crosses** for the month and **tick marks** for the day
 
-----
+.. figure:: ../images/data_portrait.jpeg
 
 Teaching notes
 --------------
