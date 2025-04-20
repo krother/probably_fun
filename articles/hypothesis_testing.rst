@@ -14,6 +14,8 @@ Time
 Baking Dice
 -----------
 
+.. figure:: ../images/bakedice.jpg
+
 This is a didactic *"recipe"* of a special kind.
 To prepare the lesson you need a box of six-sided dice.
 I recommend standard dice without any glitter or fancy stuff.
