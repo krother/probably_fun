@@ -31,6 +31,7 @@ Probably Fun
    articles/distributions.rst
    articles/age_of_ai/README.rst
    articles/entropy.rst
+   articles/random_forest.rst
    articles/network_centrality.rst
    articles/hypothesis_testing.rst
    articles/data_modeling/README.rst
