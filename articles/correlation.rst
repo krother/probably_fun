@@ -53,7 +53,8 @@ In the second part correlation is introduced. The common equation for the correl
 
 .. math::
 
-   r = m \cdot \frac{std(x)}{std(y)}
+    r = m \cdot \frac{std(x)}{std(y)}
+
 
 ====== ==================================================================================== =======
 step   description                                                                          time
@@ -101,9 +102,8 @@ For an introduction to the statistical concept, using a black-box linreg
 function like in Excel or seaborn works. Especially in a course on
 Machine Learning you might want to follow up with any of the following:
 
--  :ref:`correlation`
 -  multiple linear regression
--  how to find optimal parameters (Normal Equation vs. Gradient Descent)
+-  how to find optimal parameters (Normal Equation vs. Gradient Descent)
 -  regularization, Ridge, Lasso
 -  assumptions and the Gauss-Markov Theorem
 
