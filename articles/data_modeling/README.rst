@@ -41,7 +41,7 @@ By playing a game, you infuse the necessary domain knowledge directly to your cl
 
 In this lesson, the students create a data model for a game.
 I have used this lesson with many different games: **Wizard**, **Boggle**, **Yatzhee** and **Connect Four**.
-Below, you find a lesson for the game described `Splendor <>`__, but the lesson practically works with any game.
+The lesson plan below uses the game `Splendor <https://boardgamegeek.com/boardgame/148228/splendor>`__, but the lesson practically works with any game.
 
 The Game: Splendor
 ------------------
@@ -58,15 +58,18 @@ This not only speeds up the game, but also allows to play Splendor in a group of
 Lesson Plan
 -----------
 
-1. explain the rules of the game
-2. play a game of Splendor for 20'
-3. ask: **"now we want to save the state of the game. What do we need?"**
-4. task students to draw tables and their columns to save the game
-5. hand out paper
-6. let them draw for a while
-7. compare results
-8. draw a data model as an ER-diagram together on the board
-9. implement the model in SQL
+====== ==================================================================================== =======
+step   description                                                                          time
+====== ==================================================================================== =======
+1.     explain the rules of the game                                                        5'
+2.     play a game of Splendor                                                              20'
+3.     ask: **"now we want to save the state of the game. What do we need?"**               2'
+4.     task students to draw tables and their columns to save the game                      5'
+5.     hand out paper and let them draw for a while                                         20'
+7.     compare results                                                                      10'
+8.     draw a data model as an ER-diagram together on the board                             10'
+9.     optional: implement the model in SQL                                                 30'
+====== ==================================================================================== =======
 
 .. hint::
 
@@ -134,7 +137,7 @@ The data model can be used as a starting point for a whole series of SQL lessons
 
 .. seealso::
 
-   - `Splendor Board Game <>`__
-   - `Splendor on boardgamearena <>`__
-   - `SQL Tutorial on w3schools `<>`__
+   - `Splendor on Board Game Geek <https://boardgamegeek.com/boardgame/148228/splendor>`__
+   - `Splendor on boardgamearena <https://en.boardgamearena.com/gamepanel?id=1394>`__
+   - `SQL Tutorial on w3schools <https://www.w3schools.com/sql/>`__
    - `DuckDB <https://duckdb.org/>`__, an easily installable DB engine.
