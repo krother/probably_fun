@@ -10,14 +10,12 @@ Lesson Goal:
 ------------
 Students identify the most important location in Pandemic.
 
+The graph data is availabl as a CSV file: :download:`pandemic.csv`
 
-Graph :download:`pandemic.csv`
+Comments
+--------
 
-
-.. figure:: ../images/pandemic_graph.svg
-
-*By Cmglee - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=118086597*
-network centrality
+This is a lesson idea I have not delivered yet. I came across a variant of the Pandemic game scaled up to 20+ players, but it is not public yet.
 
 .. seealso::
 
