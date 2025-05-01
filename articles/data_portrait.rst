@@ -18,7 +18,8 @@ Instructions
 Draw on a piece of paper:
 
 -  one **square** for each character in your name
--  **circles** indicating your relative age among your siblings (oldest, 2nd oldest)
+-  one **circle** for you and each of your siblings
+-  fill the circle indicating yourself, sorted by relative age (oldest, 2nd oldest)
 -  a **symbol** that indicates your country of birth
 -  your favourite **mode of transportation**: legs for walking, two
    circles for biking, a box with wheels for cars/trains and wings for flying

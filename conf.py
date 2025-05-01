@@ -46,6 +46,6 @@ html_theme_options = {
 }
 # ---- Options for PDF output ----
 
-latex_elements = {
-    'preamble': "\linespread{1.25}",
-}
+# latex_elements = {
+#     'preamble': "\linespread{1.25}",
+# }
