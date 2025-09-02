@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+#guess-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.letter {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.correct {
+  background-color: green;
+}
+
+.partial {
+  background-color: orange;
+}
+
+.wrong {
+  background-color: gray;
+}
+
+#guess-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
